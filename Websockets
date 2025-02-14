@@ -8,10 +8,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PZs3FwhL9qIeMzFIOG6u-1" value="Websocket&lt;div&gt;Service&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="115" y="100" width="130" height="80" as="geometry" />
+          <mxGeometry x="130" y="110" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PZs3FwhL9qIeMzFIOG6u-2" value="Maybe rest api call for initial websocket store data?" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="40" width="140" height="80" as="geometry" />
+          <mxGeometry x="390" y="30" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PZs3FwhL9qIeMzFIOG6u-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PZs3FwhL9qIeMzFIOG6u-5" target="PZs3FwhL9qIeMzFIOG6u-8">
           <mxGeometry relative="1" as="geometry" />
@@ -23,16 +23,19 @@
           <mxGeometry x="120" y="270" width="150" height="120" as="geometry" />
         </mxCell>
         <mxCell id="PZs3FwhL9qIeMzFIOG6u-8" value="Notification Component (header)&lt;div&gt;Looks for notifications of&amp;nbsp;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="117.5" y="640" width="155" height="110" as="geometry" />
+          <mxGeometry x="120" y="640" width="155" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="PZs3FwhL9qIeMzFIOG6u-11" value="{&lt;div&gt;type: enum (string)&lt;/div&gt;&lt;div&gt;data: any &amp;gt;&amp;gt; config for notification&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" vertex="1" parent="1">
-          <mxGeometry x="350" y="290" width="300" height="60" as="geometry" />
+        <mxCell id="PZs3FwhL9qIeMzFIOG6u-11" value="{&lt;div&gt;&amp;nbsp; &amp;nbsp; type: enum (string)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; data: any &amp;gt;&amp;gt; config for notification&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;align=left;spacingLeft=7;" vertex="1" parent="1">
+          <mxGeometry x="440" y="300" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PZs3FwhL9qIeMzFIOG6u-12" value="Special Use case consumer&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Will listen to notifications and only run logic based on reducer-style logic:&lt;br&gt;&lt;br&gt;if(notificaiton.type === &#39;creation-hub-quote-fulfilled&#39;){&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;...&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;if(notification.type === &#39;lifeQuoteComplete&#39;) {...}&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="450" y="420" width="400" height="110" as="geometry" />
+          <mxGeometry x="390" y="420" width="400" height="110" as="geometry" />
         </mxCell>
         <mxCell id="PZs3FwhL9qIeMzFIOG6u-14" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;id: uuid&lt;/span&gt;&lt;/div&gt;title: string&lt;div&gt;message: string&lt;/div&gt;&lt;div&gt;routeTo: string&lt;/div&gt;&lt;div&gt;severity: enum&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;horizontal=1;textShadow=0;labelBorderColor=none;labelBackgroundColor=none;spacingLeft=6;" vertex="1" parent="1">
-          <mxGeometry x="132.5" y="470" width="125" height="90" as="geometry" />
+          <mxGeometry x="130" y="470" width="125" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PZs3FwhL9qIeMzFIOG6u-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PZs3FwhL9qIeMzFIOG6u-14" target="PZs3FwhL9qIeMzFIOG6u-14">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
