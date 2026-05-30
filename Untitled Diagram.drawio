@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="2241" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2221" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,11 +17,6 @@
         </mxCell>
         <mxCell id="nDp43B2aPUJu3V_i12Yd-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="List of Cusips / Isins / fundServIds" vertex="1">
           <mxGeometry height="50" width="150" x="340" y="160" as="geometry" />
-        </mxCell>
-        <mxCell id="nDp43B2aPUJu3V_i12Yd-11" edge="1" parent="1" source="nDp43B2aPUJu3V_i12Yd-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-20" y="370" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="nDp43B2aPUJu3V_i12Yd-14" edge="1" parent="1" source="nDp43B2aPUJu3V_i12Yd-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="nDp43B2aPUJu3V_i12Yd-13">
           <mxGeometry relative="1" as="geometry" />
@@ -63,25 +58,35 @@
         <mxCell id="nDp43B2aPUJu3V_i12Yd-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Not found" vertex="1">
           <mxGeometry height="40" width="120" x="200" y="560" as="geometry" />
         </mxCell>
-        <mxCell id="nDp43B2aPUJu3V_i12Yd-25" edge="1" parent="1" source="nDp43B2aPUJu3V_i12Yd-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="nDp43B2aPUJu3V_i12Yd-27">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="400" y="660" as="targetPoint" />
+        <mxCell id="nDp43B2aPUJu3V_i12Yd-58" edge="1" parent="1" source="nDp43B2aPUJu3V_i12Yd-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="nDp43B2aPUJu3V_i12Yd-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nDp43B2aPUJu3V_i12Yd-59" connectable="0" parent="nDp43B2aPUJu3V_i12Yd-58" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Found" vertex="1">
+          <mxGeometry relative="1" x="0.2714" y="2" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nDp43B2aPUJu3V_i12Yd-20" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Calls structured-product-ai-service to run OCR scan on first 3 pages" vertex="1">
           <mxGeometry height="60" width="120" x="200" y="630" as="geometry" />
-        </mxCell>
-        <mxCell id="nDp43B2aPUJu3V_i12Yd-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Not Found" vertex="1">
-          <mxGeometry height="60" width="120" x="370" y="630" as="geometry" />
         </mxCell>
         <mxCell id="nDp43B2aPUJu3V_i12Yd-35" edge="1" parent="1" source="nDp43B2aPUJu3V_i12Yd-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.417;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" target="nDp43B2aPUJu3V_i12Yd-36">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-540" y="710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="nDp43B2aPUJu3V_i12Yd-55" connectable="0" parent="nDp43B2aPUJu3V_i12Yd-35" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Found" vertex="1">
+          <mxGeometry relative="1" x="-0.174" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="nDp43B2aPUJu3V_i12Yd-37" edge="1" parent="1" source="nDp43B2aPUJu3V_i12Yd-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="nDp43B2aPUJu3V_i12Yd-38">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-340" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nDp43B2aPUJu3V_i12Yd-54" connectable="0" parent="nDp43B2aPUJu3V_i12Yd-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Not Found" vertex="1">
+          <mxGeometry relative="1" x="-0.08" y="3" as="geometry">
+            <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nDp43B2aPUJu3V_i12Yd-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Check for Identifier In PDW" vertex="1">
@@ -90,8 +95,18 @@
         <mxCell id="nDp43B2aPUJu3V_i12Yd-42" edge="1" parent="1" source="nDp43B2aPUJu3V_i12Yd-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="nDp43B2aPUJu3V_i12Yd-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="nDp43B2aPUJu3V_i12Yd-53" connectable="0" parent="nDp43B2aPUJu3V_i12Yd-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Found" vertex="1">
+          <mxGeometry relative="1" x="-0.0174" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="nDp43B2aPUJu3V_i12Yd-43" edge="1" parent="1" source="nDp43B2aPUJu3V_i12Yd-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="nDp43B2aPUJu3V_i12Yd-41">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nDp43B2aPUJu3V_i12Yd-52" connectable="0" parent="nDp43B2aPUJu3V_i12Yd-43" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Not Found" vertex="1">
+          <mxGeometry relative="1" x="-0.1931" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="nDp43B2aPUJu3V_i12Yd-32" parent="1" style="whiteSpace=wrap;html=1;" value="Check for Associated Doc in s3" vertex="1">
           <mxGeometry height="60" width="120" x="-490" y="425" as="geometry" />
@@ -110,6 +125,26 @@
         </mxCell>
         <mxCell id="nDp43B2aPUJu3V_i12Yd-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Doc consumption flow" vertex="1">
           <mxGeometry height="30" width="60" x="-440" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="nDp43B2aPUJu3V_i12Yd-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="calls back to a service endpoint in some way to indicate the document did not have a match. should end up on intake grid for resolution.&lt;br&gt;&lt;br&gt;maybe doc service, maybe productservice. tbd&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="150" x="540" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="nDp43B2aPUJu3V_i12Yd-60" edge="1" parent="1" source="nDp43B2aPUJu3V_i12Yd-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="600" as="sourcePoint" />
+            <mxPoint x="-150" y="527.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nDp43B2aPUJu3V_i12Yd-49" parent="1" style="whiteSpace=wrap;html=1;" value="Calls to DocumentService, document consumiption endpoint" vertex="1">
+          <mxGeometry height="90" width="130" x="-60" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="nDp43B2aPUJu3V_i12Yd-56" edge="1" parent="1" source="nDp43B2aPUJu3V_i12Yd-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.02;entryY=0.389;entryDx=0;entryDy=0;entryPerimeter=0;" target="nDp43B2aPUJu3V_i12Yd-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nDp43B2aPUJu3V_i12Yd-57" connectable="0" parent="nDp43B2aPUJu3V_i12Yd-56" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Not Found" vertex="1">
+          <mxGeometry relative="1" x="-0.1909" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
