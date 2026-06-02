@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="2221" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2399" dy="3184" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,6 +14,9 @@
         </mxCell>
         <mxCell id="nDp43B2aPUJu3V_i12Yd-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Bulk Doc Upload&lt;br&gt;(termsheets, factsheets, prelim, etc)" vertex="1">
           <mxGeometry height="60" width="120" x="110" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-2" edge="1" parent="1" source="nDp43B2aPUJu3V_i12Yd-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="G1l9C9NNaOHRkDjVYpMr-1" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nDp43B2aPUJu3V_i12Yd-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="List of Cusips / Isins / fundServIds" vertex="1">
           <mxGeometry height="50" width="150" x="340" y="160" as="geometry" />
@@ -145,6 +148,154 @@
           <mxGeometry relative="1" x="-0.1909" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-5" edge="1" parent="1" source="G1l9C9NNaOHRkDjVYpMr-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="G1l9C9NNaOHRkDjVYpMr-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-1" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="product service endpoint (/intake/product)" vertex="1">
+          <mxGeometry height="60" width="120" x="585" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-4" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="creates rows on rawIntake table" vertex="1">
+          <mxGeometry height="60" width="120" x="585" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-6" parent="1" style="whiteSpace=wrap;html=1;" value="Intake Grid" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="-160" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-16" edge="1" parent="1" source="G1l9C9NNaOHRkDjVYpMr-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="G1l9C9NNaOHRkDjVYpMr-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-7" parent="1" style="whiteSpace=wrap;html=1;" value="P&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;roductService&lt;br&gt;IntakeController&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="-330" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-9" edge="1" parent="1" source="G1l9C9NNaOHRkDjVYpMr-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="G1l9C9NNaOHRkDjVYpMr-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-13" connectable="0" parent="G1l9C9NNaOHRkDjVYpMr-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="get Product Intake data" vertex="1">
+          <mxGeometry relative="1" x="-0.1191" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-8" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;Postgres (product schema)&lt;/div&gt;raw_intake&lt;br&gt;raw_intake_document_upload" vertex="1">
+          <mxGeometry height="80" width="290" x="380" y="-470" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-11" edge="1" parent="1" source="G1l9C9NNaOHRkDjVYpMr-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="G1l9C9NNaOHRkDjVYpMr-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="-390" />
+              <mxPoint x="180" y="-390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-12" connectable="0" parent="G1l9C9NNaOHRkDjVYpMr-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Check if it exists in pdw" vertex="1">
+          <mxGeometry relative="1" x="-0.6676" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-10" parent="1" style="whiteSpace=wrap;html=1;" value="PDW service" vertex="1">
+          <mxGeometry height="60" width="120" x="10" y="-480" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-14" parent="1" style="whiteSpace=wrap;html=1;" value="Feign - DocumentService&lt;div&gt;check for production docs in s3&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="-340" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-15" edge="1" parent="1" source="G1l9C9NNaOHRkDjVYpMr-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.008;entryY=0.38;entryDx=0;entryDy=0;entryPerimeter=0;" target="G1l9C9NNaOHRkDjVYpMr-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-32" edge="1" parent="1" source="G1l9C9NNaOHRkDjVYpMr-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="-1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-17" parent="1" style="whiteSpace=wrap;html=1;" value="Upload&amp;nbsp;&lt;br&gt;Document (Termsheet, factsheet, etc)&lt;div&gt;if final termsheet, process:&lt;/div&gt;&lt;div&gt;&amp;nbsp;(process via ai + ops review)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="210" x="75" y="-1060" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-20" edge="1" parent="1" source="G1l9C9NNaOHRkDjVYpMr-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="G1l9C9NNaOHRkDjVYpMr-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-22" edge="1" parent="1" source="G1l9C9NNaOHRkDjVYpMr-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="G1l9C9NNaOHRkDjVYpMr-21" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-18" parent="1" style="whiteSpace=wrap;html=1;" value="Load off-platform into luma" vertex="1">
+          <mxGeometry height="60" width="120" x="-180" y="-1060" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-34" edge="1" parent="1" source="G1l9C9NNaOHRkDjVYpMr-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="G1l9C9NNaOHRkDjVYpMr-33" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-21" parent="1" style="whiteSpace=wrap;html=1;" value="Upload Product Id excel list (direct to productservice)" vertex="1">
+          <mxGeometry height="60" width="120" x="-180" y="-950" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-27" edge="1" parent="1" source="G1l9C9NNaOHRkDjVYpMr-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="G1l9C9NNaOHRkDjVYpMr-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-30" edge="1" parent="1" source="G1l9C9NNaOHRkDjVYpMr-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="G1l9C9NNaOHRkDjVYpMr-29" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-23" parent="1" style="whiteSpace=wrap;html=1;" value="CH syndication" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="-1340" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-24" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;Postgres&lt;/div&gt;&lt;div&gt;Product Schema&lt;/div&gt;raw_intake" vertex="1">
+          <mxGeometry height="60" width="120" x="-370" y="-1000" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-25" parent="1" style="whiteSpace=wrap;html=1;" value="request a product for it to show in marketplace or track a holding in lifecycle" vertex="1">
+          <mxGeometry height="60" width="120" x="-350" y="-1180" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-26" parent="1" style="whiteSpace=wrap;html=1;" value="Marketplace" vertex="1">
+          <mxGeometry height="60" width="120" x="395" y="-1340" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-29" parent="1" style="whiteSpace=wrap;html=1;" value="Lifecycle without holdings" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="-1250" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-31" parent="1" style="whiteSpace=wrap;html=1;" value="scrape cusip&lt;div&gt;upload to ai bucket&lt;/div&gt;&lt;div&gt;ai processes&lt;/div&gt;&lt;div&gt;saves to pdw&lt;/div&gt;&lt;div&gt;ops reviews&lt;/div&gt;&lt;div&gt;updates stage/status&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="145" x="395" y="-1095" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-36" edge="1" parent="1" source="G1l9C9NNaOHRkDjVYpMr-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="G1l9C9NNaOHRkDjVYpMr-35" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-33" parent="1" style="whiteSpace=wrap;html=1;" value="Does it exist?&lt;div&gt;if yes just show it?&lt;/div&gt;&lt;div&gt;if not: edgar&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="20" y="-950" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-37" edge="1" parent="1" source="G1l9C9NNaOHRkDjVYpMr-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="-1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-35" parent="1" style="whiteSpace=wrap;html=1;" value="try to pull product from edgar" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="-950" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-38" parent="1" style="whiteSpace=wrap;html=1;" value="it would be nice if when CH or PM has an action we could surface them on a screen that manages intake" vertex="1">
+          <mxGeometry height="100" width="220" x="-200" y="-1330" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-39" parent="1" style="whiteSpace=wrap;html=1;" value="Management screen" vertex="1">
+          <mxGeometry height="60" width="120" x="190" y="-650" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-41" edge="1" parent="1" source="G1l9C9NNaOHRkDjVYpMr-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="G1l9C9NNaOHRkDjVYpMr-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-40" parent="1" style="whiteSpace=wrap;html=1;" value="postgres&lt;div&gt;raw_intake&lt;/div&gt;&lt;div&gt;off platform products&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="10" y="-750" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-43" edge="1" parent="1" source="G1l9C9NNaOHRkDjVYpMr-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="G1l9C9NNaOHRkDjVYpMr-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-42" parent="1" style="whiteSpace=wrap;html=1;" value="CH lifecycle syndicated products" vertex="1">
+          <mxGeometry height="60" width="120" x="190" y="-790" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-45" edge="1" parent="1" source="G1l9C9NNaOHRkDjVYpMr-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="G1l9C9NNaOHRkDjVYpMr-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-44" parent="1" style="whiteSpace=wrap;html=1;" value="Marketplace Traded Products" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="-770" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-46" parent="1" style="whiteSpace=wrap;html=1;" value="Lifecycle data?&lt;div&gt;accounts/holdings/products&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="590" y="-760" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-47" parent="1" style="whiteSpace=wrap;html=1;" value="Potential optimistic patch table?&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;we may need to do something on edits to patch while lifecycle isn&#39;t loaded, and get patched on when querying?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="190" x="590" y="-700" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-49" parent="1" style="whiteSpace=wrap;html=1;" value="historical orders &amp;gt; lm data for CH / PM stuff" vertex="1">
+          <mxGeometry height="60" width="120" x="590" y="-930" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-50" parent="1" style="whiteSpace=wrap;html=1;" value="GWIM integration &amp;gt; lm data" vertex="1">
+          <mxGeometry height="60" width="120" x="590" y="-860" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
