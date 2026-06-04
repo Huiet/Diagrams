@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="3226" dy="3184" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2940" dy="3030" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -61,7 +61,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nDp43B2aPUJu3V_i12Yd-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Found:&lt;br&gt;uses cusip" vertex="1">
-          <mxGeometry height="60" width="160" x="-150" y="500" as="geometry" />
+          <mxGeometry height="60" width="160" x="-220" y="470" as="geometry" />
         </mxCell>
         <mxCell id="nDp43B2aPUJu3V_i12Yd-21" edge="1" parent="1" source="nDp43B2aPUJu3V_i12Yd-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nDp43B2aPUJu3V_i12Yd-20" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -183,11 +183,11 @@
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-32" edge="1" parent="1" source="G1l9C9NNaOHRkDjVYpMr-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="395" y="-1030" as="targetPoint" />
+            <mxPoint x="875" y="-1190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-17" parent="1" style="whiteSpace=wrap;html=1;" value="Upload&amp;nbsp;&lt;br&gt;Document (Termsheet, factsheet, etc)&lt;div&gt;if final termsheet, process:&lt;/div&gt;&lt;div&gt;&amp;nbsp;(process via ai + ops review)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="210" x="75" y="-1060" as="geometry" />
+          <mxGeometry height="60" width="210" x="555" y="-1220" as="geometry" />
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-20" edge="1" parent="1" source="G1l9C9NNaOHRkDjVYpMr-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="G1l9C9NNaOHRkDjVYpMr-17" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -196,51 +196,36 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-18" parent="1" style="whiteSpace=wrap;html=1;" value="Load off-platform into luma" vertex="1">
-          <mxGeometry height="60" width="120" x="-180" y="-1060" as="geometry" />
+          <mxGeometry height="60" width="120" x="300" y="-1220" as="geometry" />
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-34" edge="1" parent="1" source="G1l9C9NNaOHRkDjVYpMr-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="G1l9C9NNaOHRkDjVYpMr-33" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-21" parent="1" style="whiteSpace=wrap;html=1;" value="Upload Product Id excel list (direct to productservice)" vertex="1">
-          <mxGeometry height="60" width="120" x="-180" y="-950" as="geometry" />
-        </mxCell>
-        <mxCell id="G1l9C9NNaOHRkDjVYpMr-27" edge="1" parent="1" source="G1l9C9NNaOHRkDjVYpMr-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="G1l9C9NNaOHRkDjVYpMr-26">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="G1l9C9NNaOHRkDjVYpMr-30" edge="1" parent="1" source="G1l9C9NNaOHRkDjVYpMr-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="G1l9C9NNaOHRkDjVYpMr-29" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="G1l9C9NNaOHRkDjVYpMr-23" parent="1" style="whiteSpace=wrap;html=1;" value="CH syndication" vertex="1">
-          <mxGeometry height="60" width="120" x="120" y="-1340" as="geometry" />
+          <mxGeometry height="60" width="120" x="300" y="-1110" as="geometry" />
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-24" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;Postgres&lt;/div&gt;&lt;div&gt;Product Schema&lt;/div&gt;raw_intake" vertex="1">
-          <mxGeometry height="60" width="120" x="-370" y="-1000" as="geometry" />
+          <mxGeometry height="60" width="120" x="435" y="-1280" as="geometry" />
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-25" parent="1" style="whiteSpace=wrap;html=1;" value="request a product for it to show in marketplace or track a holding in lifecycle" vertex="1">
-          <mxGeometry height="60" width="120" x="-350" y="-1180" as="geometry" />
-        </mxCell>
-        <mxCell id="G1l9C9NNaOHRkDjVYpMr-26" parent="1" style="whiteSpace=wrap;html=1;" value="Marketplace" vertex="1">
-          <mxGeometry height="60" width="120" x="395" y="-1340" as="geometry" />
-        </mxCell>
-        <mxCell id="G1l9C9NNaOHRkDjVYpMr-29" parent="1" style="whiteSpace=wrap;html=1;" value="Lifecycle without holdings" vertex="1">
-          <mxGeometry height="60" width="120" x="120" y="-1250" as="geometry" />
+          <mxGeometry height="60" width="120" x="-827" y="-1230" as="geometry" />
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-31" parent="1" style="whiteSpace=wrap;html=1;" value="scrape cusip&lt;div&gt;upload to ai bucket&lt;/div&gt;&lt;div&gt;ai processes&lt;/div&gt;&lt;div&gt;saves to pdw&lt;/div&gt;&lt;div&gt;ops reviews&lt;/div&gt;&lt;div&gt;updates stage/status&lt;/div&gt;" vertex="1">
-          <mxGeometry height="130" width="145" x="395" y="-1095" as="geometry" />
+          <mxGeometry height="130" width="145" x="875" y="-1255" as="geometry" />
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-36" edge="1" parent="1" source="G1l9C9NNaOHRkDjVYpMr-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="G1l9C9NNaOHRkDjVYpMr-35" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-33" parent="1" style="whiteSpace=wrap;html=1;" value="Does it exist?&lt;div&gt;if yes just show it?&lt;/div&gt;&lt;div&gt;if not: edgar&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="20" y="-950" as="geometry" />
+          <mxGeometry height="60" width="120" x="500" y="-1110" as="geometry" />
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-37" edge="1" parent="1" source="G1l9C9NNaOHRkDjVYpMr-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="395" y="-1030" as="targetPoint" />
+            <mxPoint x="875" y="-1190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-35" parent="1" style="whiteSpace=wrap;html=1;" value="try to pull product from edgar" vertex="1">
-          <mxGeometry height="60" width="120" x="220" y="-950" as="geometry" />
+          <mxGeometry height="60" width="120" x="700" y="-1110" as="geometry" />
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-38" parent="1" style="whiteSpace=wrap;html=1;" value="it would be nice if when CH or PM has an action we could surface them on a screen that manages intake" vertex="1">
           <mxGeometry height="100" width="220" x="-200" y="-1330" as="geometry" />
@@ -248,35 +233,26 @@
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-68" edge="1" parent="1" source="G1l9C9NNaOHRkDjVYpMr-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="G1l9C9NNaOHRkDjVYpMr-67" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="G1l9C9NNaOHRkDjVYpMr-39" parent="1" style="whiteSpace=wrap;html=1;" value="Management screen" vertex="1">
-          <mxGeometry height="60" width="120" x="-630" y="-710" as="geometry" />
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-39" parent="1" style="whiteSpace=wrap;html=1;" value="Holdings management screen" vertex="1">
+          <mxGeometry height="60" width="120" x="-630" y="-780" as="geometry" />
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-41" edge="1" parent="1" source="G1l9C9NNaOHRkDjVYpMr-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="G1l9C9NNaOHRkDjVYpMr-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-40" parent="1" style="whiteSpace=wrap;html=1;" value="postgres&lt;div&gt;raw_intake&lt;/div&gt;&lt;div&gt;off platform products&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="120" x="-990" y="-770" as="geometry" />
+          <mxGeometry height="50" width="120" x="-1010" y="-760" as="geometry" />
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-43" edge="1" parent="1" source="G1l9C9NNaOHRkDjVYpMr-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="G1l9C9NNaOHRkDjVYpMr-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-42" parent="1" style="whiteSpace=wrap;html=1;" value="CH lifecycle direct products" vertex="1">
-          <mxGeometry height="60" width="120" x="-990" y="-870" as="geometry" />
+          <mxGeometry height="60" width="120" x="-1010" y="-870" as="geometry" />
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-66" edge="1" parent="1" source="G1l9C9NNaOHRkDjVYpMr-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="G1l9C9NNaOHRkDjVYpMr-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-44" parent="1" style="whiteSpace=wrap;html=1;" value="Historical Orders" vertex="1">
-          <mxGeometry height="60" width="120" x="-480" y="-830" as="geometry" />
-        </mxCell>
-        <mxCell id="G1l9C9NNaOHRkDjVYpMr-46" parent="1" style="whiteSpace=wrap;html=1;" value="Lifecycle data?&lt;div&gt;accounts/holdings/products&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="200" x="-620" y="-1080" as="geometry" />
-        </mxCell>
-        <mxCell id="G1l9C9NNaOHRkDjVYpMr-49" parent="1" style="whiteSpace=wrap;html=1;" value="historical orders &amp;gt; lm data for CH / PM stuff" vertex="1">
-          <mxGeometry height="60" width="120" x="590" y="-930" as="geometry" />
-        </mxCell>
-        <mxCell id="G1l9C9NNaOHRkDjVYpMr-50" parent="1" style="whiteSpace=wrap;html=1;" value="GWIM integration &amp;gt; lm data" vertex="1">
-          <mxGeometry height="60" width="120" x="590" y="-870" as="geometry" />
+          <mxGeometry height="60" width="120" x="-473" y="-900" as="geometry" />
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-55" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="doc consupmtion flow." vertex="1">
           <mxGeometry height="60" width="120" x="-300" y="150" as="geometry" />
@@ -293,7 +269,7 @@
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-74" edge="1" parent="1" source="G1l9C9NNaOHRkDjVYpMr-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="G1l9C9NNaOHRkDjVYpMr-73" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="G1l9C9NNaOHRkDjVYpMr-69" parent="1" style="whiteSpace=wrap;html=1;" value="Exists in lm product table (pdw&amp;gt;postgres at last lm snowflake/DBT run, not net new product)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;caveat: events must exist and be in the lm data set&lt;/div&gt;" vertex="1">
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-69" parent="1" style="whiteSpace=wrap;html=1;" value="Exists in lm product table (pdw&amp;gt;postgres at last lm snowflake/DBT run, not net new product)&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;icaveat: events must exist and be in the lm data set&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="165" width="180" x="-410" y="-575" as="geometry" />
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-76" edge="1" parent="1" source="G1l9C9NNaOHRkDjVYpMr-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="G1l9C9NNaOHRkDjVYpMr-75" value="">
@@ -302,8 +278,8 @@
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-71" parent="1" style="whiteSpace=wrap;html=1;" value="Does not exist in lm product table" vertex="1">
           <mxGeometry height="60" width="120" x="-850" y="-580" as="geometry" />
         </mxCell>
-        <mxCell id="G1l9C9NNaOHRkDjVYpMr-73" parent="1" style="whiteSpace=wrap;html=1;" value="update lm holdings table (reflects in lm)&lt;div&gt;Update historical Orders table (reflects in management screen)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="90" width="140" x="-130" y="-580" as="geometry" />
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-73" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;Update Holding Data:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Holding Update Action (HUA)=&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;if quantity updates / new / removed holdings&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Update LM Live Data:&lt;/div&gt;&lt;div&gt;1. LM Holdings Table&lt;/div&gt;&lt;div&gt;2.&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;LM Transactions Table (if HUA)&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp; (need to check if exists??). make a distinction between delete or sell.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Update DBT Source Data:&lt;/div&gt;&lt;div&gt;if HUA&lt;/div&gt;&lt;div&gt;1. Historical Orders&lt;/div&gt;&lt;div&gt;2.&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;HoldingsNotionalChangelog&lt;/span&gt;&lt;/div&gt;&lt;div&gt;NOTE: it may be conditional what to do here. check with m3. historical updates may auto audit onto the holdingsNotionalChangelog?&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;New table should also be created to track user holding changes/interactions. would act as an audit of interactions on this table. could end up replacing historical orders?&lt;/div&gt;&lt;div&gt;holding change, product, etc. need to think through this.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;need deleted / deleted at column for historical to track deletes.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;need new table to track user actions in general.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="510" width="250" x="-140" y="-670" as="geometry" />
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-75" parent="1" style="whiteSpace=wrap;html=1;" value="find a way to indicate it will show on next load. update historical orders" vertex="1">
           <mxGeometry height="60" width="120" x="-1027" y="-580" as="geometry" />
@@ -330,8 +306,8 @@
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-81" parent="1" style="whiteSpace=wrap;html=1;" value="gwim based edgar mapping?" vertex="1">
           <mxGeometry height="60" width="120" x="580" y="360" as="geometry" />
         </mxCell>
-        <mxCell id="G1l9C9NNaOHRkDjVYpMr-83" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;Questions for lm and in general:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;1.historical orders performance - does this need to be paginated? what does it look like?&lt;div&gt;2. gwim data what&#39;s that?&lt;/div&gt;&lt;div&gt;3. update holdings can we update both the lm table and historical at the same time? failure case handling ok?&lt;/div&gt;&lt;div&gt;4. custodian feeds - how do they layer in to this flow (disable the manual likely? or manual trigger feed call on a product or something? )&lt;/div&gt;&lt;div&gt;5. If a product is not in lm version of pdw but it is live after the intake process - how does that work / custodian feed&lt;/div&gt;&lt;div&gt;6. Where does this live? LM page/tab?&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;services&lt;/div&gt;&lt;div&gt;ordsr service (historical)&lt;/div&gt;&lt;div&gt;ai-structured-product-service&lt;/div&gt;&lt;div&gt;product service for pdw interface&lt;/div&gt;&lt;div&gt;lifecycle manager&amp;nbsp; - holding management and holdings products data&lt;/div&gt;&lt;div&gt;lm lambda&amp;nbsp; service&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;for ch flow:&lt;/div&gt;&lt;div&gt;how do you know who to show products without holdings for?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;lm does not utilize programs. somewhere lm maps to rep ids or something&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;gwim data is not in historical orders. it is a separate db. holdings in historical map to gmiw but those are older holdings that are not sent by gwim.&lt;/div&gt;&lt;div&gt;holdings by gwim are in a sepraate data bunker sent to us through sftp daily and lm has a polished version in postgres schema lifecyclemanager_gwim&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;tald to data team. transactions are bulit from changes to the historical order table, mulitple transactions combine to make a holding.&lt;/div&gt;" vertex="1">
-          <mxGeometry height="570" width="390" x="-1120" y="-460" as="geometry" />
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-83" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;Questions for lm and in general:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;1.historical orders performance - does this need to be paginated? what does it look like?&lt;div&gt;2. gwim data what&#39;s that?&lt;/div&gt;&lt;div&gt;3. update holdings can we update both the lm table and historical at the same time? failure case handling ok?&lt;/div&gt;&lt;div&gt;4. custodian feeds - how do they layer in to this flow (disable the manual likely? or manual trigger feed call on a product or something? )&lt;/div&gt;&lt;div&gt;5. If a product is not in lm version of pdw but it is live after the intake process - how does that work / custodian feed&lt;/div&gt;&lt;div&gt;6. Where does this live? LM page/tab?&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;services&lt;/div&gt;&lt;div&gt;ordsr service (historical)&lt;/div&gt;&lt;div&gt;ai-structured-product-service&lt;/div&gt;&lt;div&gt;product service for pdw interface&lt;/div&gt;&lt;div&gt;lifecycle manager&amp;nbsp; - holding management and holdings products data&lt;/div&gt;&lt;div&gt;lm lambda&amp;nbsp; service&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;for ch flow:&lt;/div&gt;&lt;div&gt;how do you know who to show products without holdings for?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;lm does not utilize programs. somewhere lm maps to rep ids or something&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;gwim data is not in historical orders. it is a separate db. holdings in historical map to gmiw but those are older holdings that are not sent by gwim.&lt;/div&gt;&lt;div&gt;holdings by gwim are in a sepraate data bunker sent to us through sftp daily and lm has a polished version in postgres schema lifecyclemanager_gwim&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;talk to data team (logan). transactions are built from changes to the historical order table, mulitple transactions combine to make a holding.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="570" width="390" x="-1640" y="-260" as="geometry" />
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-84" parent="1" style="whiteSpace=wrap;html=1;" value="lm and product service investigateino" vertex="1">
           <mxGeometry height="60" width="120" x="-1300" y="-710" as="geometry" />
@@ -340,24 +316,54 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-87" parent="1" style="whiteSpace=wrap;html=1;" value="Questions around AI:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. Edgar flow: does this involve ai processing? if so AI bucket + lambda?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2. does the lambda/ai bucket flow handle errors and retries accordingly? logging for errors?&lt;br&gt;3.&lt;/div&gt;" vertex="1">
-          <mxGeometry height="240" width="220" x="-1390" y="-460" as="geometry" />
+          <mxGeometry height="240" width="220" x="-1640" y="-540" as="geometry" />
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-89" edge="1" parent="1" source="G1l9C9NNaOHRkDjVYpMr-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-330" y="-270" as="targetPoint" />
+            <mxPoint x="-970" y="-390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-88" parent="1" style="whiteSpace=wrap;html=1;" value="dbt load" vertex="1">
-          <mxGeometry height="60" width="120" x="-590" y="-300" as="geometry" />
+          <mxGeometry height="60" width="120" x="-1230" y="-420" as="geometry" />
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-92" edge="1" parent="1" source="G1l9C9NNaOHRkDjVYpMr-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="G1l9C9NNaOHRkDjVYpMr-91" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-90" parent="1" style="whiteSpace=wrap;html=1;" value="product intake complete, new pdw product is existing" vertex="1">
-          <mxGeometry height="60" width="120" x="-380" y="-300" as="geometry" />
+          <mxGeometry height="60" width="120" x="-1020" y="-420" as="geometry" />
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-91" parent="1" style="whiteSpace=wrap;html=1;" value="user goes to mgmt screen, updates holding on product" vertex="1">
-          <mxGeometry height="60" width="120" x="-180" y="-300" as="geometry" />
+          <mxGeometry height="70" width="120" x="-820" y="-420" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-93" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Scenario that could lead to inability to update holdings in realtime on lm:" vertex="1">
+          <mxGeometry height="30" width="520" x="-1270" y="-470" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-94" parent="1" style="whiteSpace=wrap;html=1;" value="table in sql server&lt;div&gt;HoldingsNotionalChangelog&lt;/div&gt;&lt;div&gt;tracks holdings notional date set etc&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="250" x="-1080" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-97" edge="1" parent="1" source="G1l9C9NNaOHRkDjVYpMr-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="G1l9C9NNaOHRkDjVYpMr-96" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-95" parent="1" style="whiteSpace=wrap;html=1;" value="MSSQL holding notional change table&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ask m3 how this is set&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="130" x="-1100" y="-200" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-99" edge="1" parent="1" source="G1l9C9NNaOHRkDjVYpMr-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="G1l9C9NNaOHRkDjVYpMr-98" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-96" parent="1" style="whiteSpace=wrap;html=1;" value="Snowflake / DBT" vertex="1">
+          <mxGeometry height="60" width="120" x="-890" y="-190" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-98" parent="1" style="whiteSpace=wrap;html=1;" value="Transactions Table" vertex="1">
+          <mxGeometry height="60" width="120" x="-690" y="-190" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-100" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="ask m3 if there is a way to see transaction history of holdings one at a time or otherwise" vertex="1">
+          <mxGeometry height="80" width="150" x="-470" y="-1000" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-101" parent="1" style="whiteSpace=wrap;html=1;" value="question:&lt;div&gt;are holdings derived from transactions?&amp;nbsp;&lt;/div&gt;&lt;div&gt;(for all? for only non historical orders?)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="140" x="-630" y="-360" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-102" parent="1" style="whiteSpace=wrap;html=1;" value="question:&lt;div&gt;when modify holdings, do we interact with transactions or do we modify transactions/MSSQL lower transaction values?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="230" x="-480" y="-360" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
