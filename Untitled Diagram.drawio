@@ -587,13 +587,13 @@
           <mxGeometry height="135" width="190" x="-2300" y="1010" as="geometry" />
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-258" connectable="0" parent="1" style="group;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Product Intake Page" vertex="1">
-          <mxGeometry height="90" width="470" x="-260" y="1032.5" as="geometry" />
+          <mxGeometry height="90" width="340" x="-250" y="1032.5" as="geometry" />
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-256" parent="G1l9C9NNaOHRkDjVYpMr-258" style="whiteSpace=wrap;html=1;" value="Bulk Document Upload" vertex="1">
-          <mxGeometry height="60" width="120" y="30" as="geometry" />
+          <mxGeometry height="60" width="140" y="30" as="geometry" />
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-257" parent="G1l9C9NNaOHRkDjVYpMr-258" style="whiteSpace=wrap;html=1;" value="ID List Upload" vertex="1">
-          <mxGeometry height="60" width="120" x="200" y="30" as="geometry" />
+          <mxGeometry height="60" width="145.32" x="182.34" y="30" as="geometry" />
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-259" parent="1" style="whiteSpace=wrap;html=1;" value="Single Cusip Set Upload? (factsheet, termsheet, prelim termsheet, id, etc all at once for one product???" vertex="1">
           <mxGeometry height="110" width="140" x="-660" y="1000" as="geometry" />
@@ -617,11 +617,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-292" edge="1" parent="1" source="G1l9C9NNaOHRkDjVYpMr-267" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="G1l9C9NNaOHRkDjVYpMr-291" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-267" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="S3 AI Bucket" vertex="1">
-          <mxGeometry height="80" width="60" x="-210" y="1380" as="geometry" />
+          <mxGeometry height="80" width="60" x="-220" y="1390" as="geometry" />
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-269" connectable="0" parent="1" style="group;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
-          <mxGeometry height="100" width="235" x="-815" y="1210" as="geometry" />
+          <mxGeometry height="100" width="235" x="-740" y="1210" as="geometry" />
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-265" parent="G1l9C9NNaOHRkDjVYpMr-269" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="&lt;p&gt;ProductDocumentsDeployed&lt;br&gt;MSSQL for&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;document &amp;lt;&amp;gt; cusip association&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="100" width="150" as="geometry" />
@@ -642,7 +645,7 @@
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-277" connectable="0" parent="G1l9C9NNaOHRkDjVYpMr-276" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="cusip exists with existing Doc (conflict)&lt;div&gt;OR&lt;/div&gt;&lt;div&gt;No ID Found&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.2122" y="-2" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="114" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-279" edge="1" parent="1" source="G1l9C9NNaOHRkDjVYpMr-260" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=30;entryPerimeter=0;" target="G1l9C9NNaOHRkDjVYpMr-268">
@@ -660,7 +663,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-288" connectable="0" parent="1" style="group;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
-          <mxGeometry height="80" width="220" x="-800" y="1340" as="geometry" />
+          <mxGeometry height="80" width="220" x="-720" y="1340" as="geometry" />
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-266" parent="G1l9C9NNaOHRkDjVYpMr-288" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="S3 lft-docs" vertex="1">
           <mxGeometry height="80" width="60" x="160" as="geometry" />
@@ -670,6 +673,15 @@
         </mxCell>
         <mxCell id="G1l9C9NNaOHRkDjVYpMr-289" edge="1" parent="1" source="G1l9C9NNaOHRkDjVYpMr-257" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="G1l9C9NNaOHRkDjVYpMr-283">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-290" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" value="This bucket should handle duplicates gracefuly" vertex="1">
+          <mxGeometry height="80" width="120" x="-145" y="1390" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-291" parent="1" style="whiteSpace=wrap;html=1;" value="Lambda Listener -&amp;gt; ai-structured-product-service endpoint" vertex="1">
+          <mxGeometry height="60" width="180" x="-280" y="1560" as="geometry" />
+        </mxCell>
+        <mxCell id="G1l9C9NNaOHRkDjVYpMr-293" parent="1" style="whiteSpace=wrap;html=1;" value="Product Intake Grid" vertex="1">
+          <mxGeometry height="60" width="120" x="250" y="1250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
